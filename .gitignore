@@ -8,6 +8,10 @@ cache
 *.sublime-project
 *.sublime-*
 wp-config-sample.php
+bck/*
+cgi-bin/*
+*.gz
+*.tar
 
 #################
 ## Eclipse
