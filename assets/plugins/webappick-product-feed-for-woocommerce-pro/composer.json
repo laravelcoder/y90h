@@ -1,0 +1,9 @@
+{
+    "name": "webappickrep/woofeedpro",
+    "version": "master",
+    "type": "wordpress-plugin",
+    "dist": {
+        "url": "git@bitbucket.org:webappickrep/woofeedpro.git",
+        "type": "git"
+    }
+}

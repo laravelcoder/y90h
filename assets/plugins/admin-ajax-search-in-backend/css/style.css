@@ -1,0 +1,25 @@
+.loading-gif {
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	pointer-events: none;
+	background-image: url(../img/ajax-loader.gif);
+	height: 21px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 88px;
+	width: 21px;
+	top: 4px;
+	background-size: 21px;
+}
+.loading-gif.loading {
+	opacity: 1;
+}
+input[type="search"] {
+	transition: all 0.5s ease;
+}
+input[type="search"].loading {
+	background: #e9e9e9;
+	transition: all 0.5s ease;
+}

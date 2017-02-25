@@ -1,0 +1,35 @@
+body {
+    background: none repeat scroll 0% 0% #fff;
+}
+#login {
+    width: 400px;
+    padding: 25px 0px 0px;
+}
+
+body.login div#login h1 a {
+    background-image: url("/assets/uploads/2015/06/logo1.jpg");
+	/*height:185px;*/
+	width:375px;
+	background-size:auto;
+}
+.login form {
+	background:#dee1ea;
+	color:#000;
+}
+.login label {
+    color: #222;
+}
+.wp-core-ui .button-primary {
+    background: none repeat scroll 0% 0% #00a144;
+    border-color: #0c8941;
+    /*box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);*/
+    color: #fff;
+    text-decoration: none;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: none repeat scroll 0% 0% #00a144;
+    border-color: #0c8941;
+   /* box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6) inset;*/
+    color: #ddd;
+}

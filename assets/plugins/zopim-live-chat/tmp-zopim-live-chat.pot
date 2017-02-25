@@ -1,0 +1,175 @@
+# Copyright (C) 2015 Zopim Widget
+# This file is distributed under the same license as the Zopim Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zopim Widget 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zopim-live-chat\n"
+"POT-Creation-Date: 2015-10-05 02:56:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: accountconfig.php:22 accountconfig.php:48 includes/class-login.php:6
+msgid "Could not log in to Zopim. Please check your login details."
+msgstr ""
+
+#: accountconfig.php:42
+msgid ""
+"Could not log in to Zopim. We were unable to contact Zopim servers. Please "
+"check with your server administrator to ensure that <a href='http://www.php."
+"net/manual/en/book.curl.php'>PHP Curl</a> is installed and permissions are "
+"set correctly"
+msgstr ""
+
+#: accountconfig.php:66
+msgid "Error during activation: <b>%s</b>. Please try again.</div>"
+msgstr ""
+
+#: accountconfig.php:69
+msgid ""
+"Thank you for signing up. Please check your mail for your password to "
+"complete the process."
+msgstr ""
+
+#: accountconfig.php:73
+msgid ""
+"Could not activate account. The wordpress installation was unable to contact "
+"Zopim servers. Please check with your server administrator to ensure that <a "
+"href='http://www.php.net/manual/en/book.curl.php'>PHP Curl</a> is installed "
+"and permissions are set correctly."
+msgstr ""
+
+#: accountconfig.php:86 includes/class-admin.php:87
+msgid "Account no longer linked!"
+msgstr ""
+
+#: accountconfig.php:88 includes/class-admin.php:89
+msgid ""
+"We could not verify your Zopim account. Please check your password and try "
+"again."
+msgstr ""
+
+#: accountconfig.php:100
+msgid "Free Lite Package + 14 Days Full-features"
+msgstr ""
+
+#: accountconfig.php:102
+msgid " Package"
+msgstr ""
+
+#: accountconfig.php:107 accountconfig.php:148
+#: includes/class-linked-view.php:17 includes/class-login.php:9
+msgid "Set up your Zopim Account"
+msgstr ""
+
+#: accountconfig.php:111 includes/class-linked-view.php:11
+msgid "Deactivate"
+msgstr ""
+
+#: accountconfig.php:114 includes/class-linked-view.php:12
+msgid "Currently Activated Account"
+msgstr ""
+
+#: accountconfig.php:119 includes/class-linked-view.php:13
+msgid ""
+"To start using Zopim chat, launch our dashboard for access to all features, "
+"including widget customization!"
+msgstr ""
+
+#: accountconfig.php:123 includes/class-linked-view.php:14
+msgid "Launch Dashboard"
+msgstr ""
+
+#: accountconfig.php:124 includes/class-linked-view.php:15
+msgid "This will open up a new browser tab"
+msgstr ""
+
+#: accountconfig.php:132 includes/class-linked-view.php:8
+msgid "Widget options updated."
+msgstr ""
+
+#: accountconfig.php:137 includes/class-linked-view.php:16
+msgid "Optional code for customization with Zopim API:"
+msgstr ""
+
+#: accountconfig.php:153 includes/class-login.php:10
+msgid "Congratulations on successfully installing the Zopim WordPress plugin!"
+msgstr ""
+
+#: accountconfig.php:161 includes/class-login.php:12
+msgid "Link up with your Zopim account"
+msgstr ""
+
+#: accountconfig.php:172 includes/class-login.php:13
+msgid "Zopim Username (E-mail)"
+msgstr ""
+
+#: accountconfig.php:178 includes/class-login.php:14
+msgid "Zopim Password"
+msgstr ""
+
+#: accountconfig.php:184 includes/class-login.php:15
+msgid ""
+"The Zopim chat widget will display on your blog after your account is linked "
+"up."
+msgstr ""
+
+#: accountconfig.php:189 includes/class-login.php:17
+msgid "Link Up"
+msgstr ""
+
+#: accountconfig.php:190 includes/views/login-form.php:43
+msgid "Don't have a Zopim account?"
+msgstr ""
+
+#: accountconfig.php:192 includes/class-login.php:18
+msgid "Sign up now"
+msgstr ""
+
+#: includes/class-admin.php:39
+msgid "Account Configuration"
+msgstr ""
+
+#: includes/class-admin.php:39
+msgid "Zopim Chat"
+msgstr ""
+
+#: includes/class-linked-view.php:9
+msgid "Trial Plan with 14 Days Full-features"
+msgstr ""
+
+#: includes/class-linked-view.php:10
+msgid " Plan"
+msgstr ""
+
+#: includes/class-login.php:7
+msgid ""
+"Could not log in to Zopim. We were unable to contact Zopim servers. Please "
+"check with your server administrator to ensure that <a href=\"http://www.php."
+"net/manual/en/book.curl.php\">PHP Curl</a> is installed and permissions are "
+"set correctly"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Zopim Widget"
+msgstr ""
+
+#. #-#-#-#-#  tmp-zopim-live-chat.pot (Zopim Widget 1.4.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-zopim-live-chat.pot (Zopim Widget 1.4.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.zopim.com/?iref=wp_plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Zopim is an award winning chat solution that helps website owners to engage "
+"their visitors and convert customers into fans!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Zopim"
+msgstr ""

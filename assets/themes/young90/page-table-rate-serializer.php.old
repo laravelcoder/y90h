@@ -1,0 +1,55 @@
+<?php
+//Initial
+echo '<pre>a:4:{i:0;a:7:{s:2:"id";s:1:"1";s:4:"zone";s:1:"0";s:5:"basis";s:5:"price";s:3:"min";s:1:"0";s:3:"max";s:1:"0";s:4:"cost";s:1:"0";s:7:"enabled";s:1:"1";}i:1;a:7:{s:2:"id";s:1:"2";s:4:"zone";s:1:"0";s:5:"basis";s:5:"price";s:3:"min";s:4:"3.00";s:3:"max";s:2:"82";s:4:"cost";s:4:"6.50";s:7:"enabled";s:1:"1";}i:2;a:7:{s:2:"id";s:1:"3";s:4:"zone";s:1:"0";s:5:"basis";s:5:"price";s:3:"min";s:5:"82.01";s:3:"max";s:2:"83";s:4:"cost";s:4:"6.64";s:7:"enabled";s:1:"1";}i:3;a:7:{s:2:"id";s:1:"4";s:4:"zone";s:1:"0";s:5:"basis";s:5:"price";s:3:"min";s:5:"83.01";s:3:"max";s:2:"84";s:4:"cost";s:4:"6.72";s:7:"enabled";s:1:"1";}}</pre><hr>';
+
+/*
+// Pattern
+$data = array( 1 => 'Hello World!', 'foo' => 'bar' );
+echo maybe_serialize( $data );
+// a:2:{i:1;s:12:"Hello World!";s:3:"foo";s:3:"bar";}
+*/
+$cashmin = '82.01';
+$increase = '.08';
+$newcost = '6.56';
+$data = array(array("id"=>"1", "zone"=>"0", "basis"=>"price", "min"=>"0", "max"=>"0", "cost"=>"0", "enabled"=>"1"), array("id"=>"2", "zone"=>"0", "basis"=>"price", "min"=>"0.01", "max"=>"82", "cost"=>"6.50", "enabled"=>"1"));
+$id = 3;
+
+for($cashmax=83; $cashmax < 126; $cashmax++){
+	$newcost += $increase;
+	array_push($data, array("id"=>"$id", "zone"=>"0", "basis"=>"price", "min"=>"$cashmin", "max"=>"$cashmax", "cost"=>"$newcost", "enabled"=>"1"));
+	$id++;
+	$cashmin++;
+}
+
+$increase = '.80';
+$cashmin = '125.01';
+for($cashmax=135; $cashmax < 1006; $cashmax+=10){
+	$newcost += $increase;
+	array_push($data, array("id"=>"$id", "zone"=>"0", "basis"=>"price", "min"=>"$cashmin", "max"=>"$cashmax", "cost"=>"$newcost", "enabled"=>"1"));
+	$id++;
+	$cashmin+=10;
+}
+
+$increase = '4.00';
+$cashmin = '1005.01';
+for($cashmax=1055; $cashmax < 3005; $cashmax+=50){
+	$newcost += $increase;
+	if($cashmax=='2955')$cashmax=3000;
+	array_push($data, array("id"=>"$id", "zone"=>"0", "basis"=>"price", "min"=>"$cashmin", "max"=>"$cashmax", "cost"=>"$newcost", "enabled"=>"1"));
+	$id++;
+	$cashmin+=50;
+}
+
+$increase = '8.00';
+$cashmin = '3000.01';
+for($cashmax=3100; $cashmax < 6001; $cashmax+=100){
+	$newcost += $increase;
+	array_push($data, array("id"=>"$id", "zone"=>"0", "basis"=>"price", "min"=>"$cashmin", "max"=>"$cashmax", "cost"=>"$newcost", "enabled"=>"1"));
+	$id++;
+	$cashmin+=100;
+}
+
+echo maybe_serialize($data);	
+
+
+?>
